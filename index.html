@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<!-- Traditional head but with normalize.min.css added -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Alex Software Developer</title>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="wrapper"> <!-- wrapper for centering of content -->
+      <h1>Alex DevAi</h1>
+      <h2>Software Developer</h2>
+      <nav>
+        <a href="#intro">Intro</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <!-- Contact doesn't work just because there's not a page worth of content to scroll down to. Once enough content is added, it will work. I'm just keeping it in nav for consistency. -->
+      </nav>
+    </div>
+  </header>
+<!-- Main filled with articles for the 3 sections separated by horizontal rules -->
+  <main>
+    <div class="wrapper">
+      <img src="images/developer.jpg" alt="Sotware Developer working at a computer">
+      <article id="intro">
+        <h3>Intro</h3>
+        <p>Hi, my name is Alex. I am a software engineer from the Los Angeles area.</p>
+        <p>I graduated with a degree in <strong><em>Computer Science</em></strong> and am currently enrolled in the <a href="https://thinkful.com">Thinkful</a> program to get more hands-on experience.</p>
+        <p>I am interested in:</p>
+        <ol>
+          <li>Web Development</li>
+          <li>Software Development</li>
+          <li>Artificial Intelligence</li>
+        </ol>
+      </article>
+      <hr>
+      <article id="about">
+        <h3>About Me</h3>
+        <p>I am someone who always wanted to be an inventor, and I think software development is the most revolutionizing vehicle of our generation! I enjoy video games, tennis, and learning new languages. It's a lifelong goal to become a polyglot and travel the world, so I am studying: Japanese, Spanish, Arabic, German, Italian, and French.</p>
+        <p>I have been learning about software development for the past 3 years and I have experience in the following:</p>
+        <ul>
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>CI/CD in the form of TeamCity</li>
+        </ul>
+        <p>I am currently learning:</p>
+        <ul>
+          <li>React</li>
+          <li>Node.js</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Clojure</li>
+      </article>
+      <hr>
+      <article class="contact">
+        <h3>Contact</h3>
+        <p>I am interested in contributing to cool projects, so feel free to reach out with any opportunities you find exciting!</p>
+        <p>I would love to hear from you! Please feel free to contact or follow me:</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/alex-aldava">Linkedin</a></li>
+          <li><a href="https://github.com/Alex-DevAI">Github</a></li>
+        </ul>
+      </article>
+    </div>
+  </main>
+  <!-- Footer with copyright -->
+  <footer>
+    <div class="wrapper">
+      <h2>© Alex DevAi</h2>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
